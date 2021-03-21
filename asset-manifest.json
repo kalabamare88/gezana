@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/gezana/static/js/main.9df04f70.chunk.js",
-    "main.js.map": "/gezana/static/js/main.9df04f70.chunk.js.map",
+    "main.js": "/gezana/static/js/main.728409a6.chunk.js",
+    "main.js.map": "/gezana/static/js/main.728409a6.chunk.js.map",
     "runtime-main.js": "/gezana/static/js/runtime-main.186075a9.js",
     "runtime-main.js.map": "/gezana/static/js/runtime-main.186075a9.js.map",
     "static/js/2.fd36bff4.chunk.js": "/gezana/static/js/2.fd36bff4.chunk.js",
     "static/js/2.fd36bff4.chunk.js.map": "/gezana/static/js/2.fd36bff4.chunk.js.map",
     "index.html": "/gezana/index.html",
-    "precache-manifest.4f340acb34d50b4c06aec3fdf24957ec.js": "/gezana/precache-manifest.4f340acb34d50b4c06aec3fdf24957ec.js",
+    "precache-manifest.f701f6b06a3e4ff981d7791cfafb9fc5.js": "/gezana/precache-manifest.f701f6b06a3e4ff981d7791cfafb9fc5.js",
     "service-worker.js": "/gezana/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.186075a9.js",
     "static/js/2.fd36bff4.chunk.js",
-    "static/js/main.9df04f70.chunk.js"
+    "static/js/main.728409a6.chunk.js"
   ]
 }

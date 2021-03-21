@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac0c0a29d4e98ebb257857051e455472",
+    "revision": "910e95f268cc30dfd587ed87f720b73c",
     "url": "/gezana/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gezana/static/js/2.fd36bff4.chunk.js"
   },
   {
-    "revision": "3dc48ce5fce5571b485a",
-    "url": "/gezana/static/js/main.9df04f70.chunk.js"
+    "revision": "707a305306abd7b0489a",
+    "url": "/gezana/static/js/main.728409a6.chunk.js"
   },
   {
     "revision": "ca6e47f6af403ee5e3da",

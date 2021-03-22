@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, Route, BrowserRouter} from "react-router-dom";
+import {Link, Route, HashRouter} from "react-router-dom";
 import {withStyles, Container} from "@material-ui/core";
 
 import NavTabs from './components/NavTabs'
@@ -25,15 +25,15 @@ class App extends React.Component {
         return (
             <div className={classes.root}>
 
-                <BrowserRouter>
+                <HashRouter basename={process.env.PUBLIC_URL}>
                     <NavTabs/>
                     <div className={classes.mainParts}>
-                        <Route path='/' exact component={MainBody}/>
-                        <Route path='/detail' component={Detail}/>
-                        <Route path='/login' component={LoginRegister}/>
-                        <Route path='/home' component={UserHome}/>
+                        <Route  path='/' exact component={MainBody}/>
+                        <Route  path={process.env.PUBLIC_URL + '/detail'} component={Detail}/>
+                        <Route  path={process.env.PUBLIC_URL + '/login'} component={LoginRegister}/>
+                        <Route  path='/home' component={UserHome}/>
                     </div>
-                </BrowserRouter>
+                </HashRouter >
                 <Footer/>
 
 

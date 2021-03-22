@@ -5,7 +5,6 @@ import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 
-import Example from './Select'
 
 export default function AddressForm() {
 
@@ -26,7 +25,7 @@ export default function AddressForm() {
                     />
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                   <Example/>
+                   
                 </Grid>
                 <Grid item xs={12}>
                     <TextField
